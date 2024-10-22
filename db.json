@@ -1,0 +1,34 @@
+{
+  "desserts": [
+    {
+      "name": "VELVET DREAM CAKE",
+      "img": "/velvetCake.jpg",
+      "describe": "A rich red velvet cake layered with creamy vanilla bean frosting and topped with edible gold flakes. Each slice melts in your mouth, leaving a hint of cocoa and a touch of luxury.",
+      "price": "10$"
+    },
+    {
+      "name": "SPICED CHAIN CHEESECAKE",
+      "img": "/cheesecake.jpg",
+      "describe": "A creamy cheesecake infused with warm chai spices, set on a ginger snap crust. Finished with a dollop of whipped cream and a sprinkle of cinnamon for a cozy flavor experience.",
+      "price": "12$"
+    },
+    {
+      "name": "CHOCOLATE LAVA DELIGHT",
+      "img": "/chocolate.jpg",
+      "describe": "A decadent chocolate cake with a molten center that flows like lava when cut. Served warm with a scoop of vanilla ice cream and drizzled with rich chocolate sauce.",
+      "price": "15$"
+    },
+    {
+      "name": "BERRY PARADISE PARFAIT",
+      "img": "/berry.jpg",
+      "describe": "Layers of fresh mixed berries, creamy Greek yogurt, and crunchy granola, all beautifully presented in a glass. Topped with a drizzle of honey and a sprig of mint for a refreshing treat.",
+      "price": "12$"
+    },
+    {
+      "name": "CITRUS BLISS TART",
+      "img": "/lemon.jpg",
+      "describe": "A zesty lemon and orange tart with a buttery shortcrust pastry, filled with a smooth citrus curd. Finished with a light dusting of powdered sugar and candied citrus peels for an extra burst of flavor.",
+      "price": "10$"
+    }
+  ]
+}
