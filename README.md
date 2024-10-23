@@ -1,4 +1,4 @@
-## SWEET LIFE
+## SWEETS & TREATS
 
 This is a small project that dynamically displays data generated using the capabilities of static generation and incremental static regeneration in Next.js.
 
