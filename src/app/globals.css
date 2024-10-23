@@ -17,7 +17,7 @@ body {
 }
 
 a {
-  color: inherit;
+  color: #f25050;
   text-decoration: none;
 }
 
@@ -25,6 +25,11 @@ p,
 a {
   font-size: 1.8rem;
   line-height: 3rem;
+}
+
+a:hover {
+  color: #840b3d;
+  transition: 2s;
 }
 
 .wrapper {

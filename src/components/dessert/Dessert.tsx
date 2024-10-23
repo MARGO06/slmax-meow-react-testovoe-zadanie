@@ -12,7 +12,9 @@ export const Description: React.FC<{ descriptionDessert: Dessert }> = ({ descrip
       <div className={style.description}>
         <h2>{descriptionDessert.name}</h2>
         <p>{descriptionDessert.describe}</p>
-        <p className={style.price}>Price: {descriptionDessert.price}</p>
+        <p className={style.price}>
+          Price: <span>{descriptionDessert.price}</span>
+        </p>
       </div>
     </div>
   );

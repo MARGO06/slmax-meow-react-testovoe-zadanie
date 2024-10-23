@@ -1,18 +1,7 @@
 import type { Metadata } from 'next';
-import { MainLayout } from '@/components/mainLayout/MainLayout';
-import localFont from 'next/font/local';
+import { Header } from '@/components/header/Header';
+import { Footer } from '@/components/footer/Footer';
 import './globals.css';
-
-const geistSans = localFont({
-  src: './fonts/GeistVF.woff',
-  variable: '--font-geist-sans',
-  weight: '100 900',
-});
-const geistMono = localFont({
-  src: './fonts/GeistMonoVF.woff',
-  variable: '--font-geist-mono',
-  weight: '100 900',
-});
 
 export const metadata: Metadata = {
   title: 'Sweet Life',
@@ -25,8 +14,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        <MainLayout>{children}</MainLayout>
+      <body>
+        <Header />
+        {children}
+        <Footer />
       </body>
     </html>
   );
