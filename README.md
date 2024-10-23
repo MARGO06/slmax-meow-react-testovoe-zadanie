@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## SWEET LIFE
 
-## Getting Started
+This is a small project that dynamically displays data generated using the capabilities of static generation and incremental static regeneration in Next.js.
 
-First, run the development server:
+## Pages:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+1. Main Page
+2. Desserts Page(catalog)
+3. Dessert Page
+
+## Technology Stack:
+
+1. Next.js;
+2. React.js;
+3. TypeScript;
+4. CSS;
+5. SCSS;
+6. Vite;
+7. Git/GitHub
+
+## Setup project locally
+
+1. Install Node.js version >= 20.0.0;
+2. Clone [this repository](https://github.com/MARGO06/slmax-meow-react-testovoe-zadanie);
+3. Go to the develop branch of project;
+4. To install all dependencies run code
+
+```
+npm i
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Run server in the first terminal
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+npm run server
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+6. Run project in the browser
 
-## Learn More
+```
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+7. If you want to build this project
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+npm run build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+8. If you need to check ISR (only after build)
 
-## Deploy on Vercel
+- run project
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+npm start
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- you should open the server folder, then you see db.json file
+
+- you can update the information by adding one or more desserts or modifying the existing details about them.
