@@ -2,6 +2,8 @@ import { findDessert } from '@/utils/getDesserts';
 import { Description } from '@/components/dessert/Dessert';
 import style from '@/components/dessert/Dessert.module.scss';
 
+export const revalidate = 3;
+
 const decoderUrl = (param: string) => {
   return decodeURIComponent(param);
 };

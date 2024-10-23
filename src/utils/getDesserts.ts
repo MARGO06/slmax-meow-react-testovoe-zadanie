@@ -2,8 +2,8 @@ import { Dessert } from '@/components/desserts/Desserts';
 
 export async function fetchDesserts() {
   try {
-    const baseUrl = 'http://localhost:3000';
-    const response = await fetch(`${baseUrl}/api/trips`, {
+    const baseUrl = 'http://localhost:3031';
+    const response = await fetch(`${baseUrl}/desserts`, {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
@@ -16,7 +16,7 @@ export async function fetchDesserts() {
 
     const data = await response.json();
 
-    return data.desserts;
+    return data;
   } catch (error) {
     throw error;
   }
