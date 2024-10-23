@@ -1,0 +1,29 @@
+.main {
+  display: flex;
+  align-items: center;
+  max-width: 1400px;
+  height: 80vh;
+  margin: 0 auto;
+}
+
+.information {
+  display: flex;
+  width: 60%;
+  gap: 50px;
+  margin: 0 auto;
+}
+
+.dessertImage {
+  object-fit: cover;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+}
+
+.price {
+  font-weight: bold;
+}

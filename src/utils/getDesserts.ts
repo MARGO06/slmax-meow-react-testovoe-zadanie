@@ -1,3 +1,5 @@
+import { Dessert } from '@/components/desserts/Desserts';
+
 export async function fetchDesserts() {
   try {
     const baseUrl = 'http://localhost:3000';
@@ -19,3 +21,9 @@ export async function fetchDesserts() {
     throw error;
   }
 }
+
+export const findDessert = async (name: string) => {
+  const desserts = await fetchDesserts();
+  const dessert = desserts.find((dessert: Dessert) => (dessert.name === name ? dessert.name : null));
+  return dessert;
+};

@@ -4,7 +4,7 @@ import style from '@/components/desserts/Desserts.module.scss';
 import { fetchDesserts } from '@/utils/getDesserts';
 import Link from 'next/link';
 
-type Dessert = {
+export type Dessert = {
   name: string;
   img: string;
   describe: string;
@@ -13,7 +13,6 @@ type Dessert = {
 
 export const Desserts: React.FC = async () => {
   const desserts = await fetchDesserts();
-  console.log(desserts);
   return (
     <div className={style.wrapper}>
       {desserts.map((dessert: Dessert) => (
