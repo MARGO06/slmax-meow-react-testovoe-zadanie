@@ -1,0 +1,29 @@
+.main {
+  display: flex;
+  align-items: center;
+  background-image: url('/main.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 1400px;
+  height: 80vh;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.container {
+  display: flex;
+  border-radius: 5px;
+  background-color: rgba(71, 57, 57, 0.808);
+  align-items: center;
+  gap: 20px;
+  max-width: 60rem;
+  padding: 2rem;
+  flex-direction: column;
+  border: 1px solid #cdcdcd;
+}
+
+.container h2 {
+  font-size: 2.4rem;
+}
